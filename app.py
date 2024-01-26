@@ -5,6 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('upload.html')
-
+print('Hi')
 if __name__ == 'main':
     app.run(port=5001, debug=True)
